@@ -158,6 +158,62 @@ textarea {
           box-sizing: border-box;
 }
 
+/*
+These are Ankit's changes
+*/
+
+.welcome {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*
+Footer Style
+*/
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -100px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 100px;
+      }
+      #footer {
+        margin-top: 0px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          /*margin-left: -20px;
+          margin-right: -20px;*/
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+/*
+End of Footer Style
+*/
+
+/*
+End of Ankit's changes
+*/
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -719,6 +775,7 @@ h4 small {
 }
 
 .page-header {
+  color: #da4f49;
   padding-bottom: 9px;
   margin: 20px 0 30px;
   border-bottom: 1px solid #eeeeee;
